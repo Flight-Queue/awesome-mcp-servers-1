@@ -4197,6 +4197,24 @@
     "official": false
   },
   {
+    "name": "FlightQueue",
+    "url": "https://flightqueue.com/mcp",
+    "description": "Airport security wait times, forecasts, FAA delays, EES border queues and baggage stats for 8,000+ airports over a hosted MCP server.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "FlightQueue",
+    "tags": [
+      "travel",
+      "airports",
+      "wait-times",
+      "flight-delays"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.flightqueue.com/mcp"
+    }
+  },
+  {
     "name": "Cooper Email",
     "url": "https://cooperemail.com/docs/mcp",
     "description": "Gives AI agents their own email inbox: send, read, reply, and wait for the next message or a sign-up code over a hosted MCP server. API key or OAuth; free tier.",
